@@ -45,6 +45,17 @@ function App() {
         <Navbar />
         <Routes>
           <Route
+            path="/react-router/"
+            element={
+              <Home
+                to="/"
+                info={info}
+                viewProduct={viewProduct}
+                addProduct={addProduct}
+              />
+            }
+          />
+          <Route
             path="/"
             element={
               <Home
