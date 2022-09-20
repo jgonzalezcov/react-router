@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/react-router/static/css/main.c1e3ecf2.css",
+    "main.js": "/react-router/static/js/main.b898ab7d.js",
+    "static/media/Lobster-Regular.ttf": "/react-router/static/media/Lobster-Regular.03c38496322925fec242.ttf",
+    "static/media/torta2.png": "/react-router/static/media/torta2.fc82f9a70ffab2976b9d.png",
+    "static/media/torta1.png": "/react-router/static/media/torta1.836373bec4c507c8f8b2.png",
+    "static/media/torta3.png": "/react-router/static/media/torta3.faa7ca6e5c48c55552a0.png",
+    "static/media/torta13.png": "/react-router/static/media/torta13.fe62b91c1fd8edf71b3b.png",
+    "static/media/torta5.png": "/react-router/static/media/torta5.1eda50f493e386d1574f.png",
+    "static/media/torta8.png": "/react-router/static/media/torta8.e1b7e6587e1990aa5175.png",
+    "static/media/torta4.png": "/react-router/static/media/torta4.8084b0428199a5da1628.png",
+    "static/media/torta11.png": "/react-router/static/media/torta11.8506d53c9fb7a2177283.png",
+    "static/media/torta9.png": "/react-router/static/media/torta9.8251645818b7ce76c004.png",
+    "static/media/fondo2.gif": "/react-router/static/media/fondo2.bbd796e005a828343429.gif",
+    "static/media/fondo3.gif": "/react-router/static/media/fondo3.bbd796e005a828343429.gif",
+    "static/media/torta6.png": "/react-router/static/media/torta6.2d60f3bafe6d62efdbd8.png",
+    "static/media/logoHeader.png": "/react-router/static/media/logoHeader.9d1f249bebaf94687f60.png",
+    "static/media/torta10.png": "/react-router/static/media/torta10.14efc1aae7f942c82dc1.png",
+    "static/media/torta7.png": "/react-router/static/media/torta7.f6062d21e9bba6178e0c.png",
+    "static/media/fondo.gif": "/react-router/static/media/fondo.fc079703c1831fc24586.gif",
+    "static/media/logo.png": "/react-router/static/media/logo.9ff76ceed2b064c338e5.png",
+    "static/media/torta12.png": "/react-router/static/media/torta12.d6046bcfa4fb3ccfca25.png",
+    "static/media/logoB.png": "/react-router/static/media/logoB.743ba78949c511ed09c1.png",
+    "static/media/carro.png": "/react-router/static/media/carro.79614abae360a5673e2a.png",
+    "index.html": "/react-router/index.html",
+    "main.c1e3ecf2.css.map": "/react-router/static/css/main.c1e3ecf2.css.map",
+    "main.b898ab7d.js.map": "/react-router/static/js/main.b898ab7d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c1e3ecf2.css",
+    "static/js/main.b898ab7d.js"
+  ]
+}
