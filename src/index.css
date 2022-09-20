@@ -1,13 +1,220 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+* {
+  margin: 0%;
+  padding: 0%;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+  font-family: 'Lobster';
+  src: url('./assets/font/Lobster/Lobster-Regular.ttf') format('truetype');
+  font-style: normal;
+  font-weight: bolder;
+}
+body {
+  background-image: url(./assets/img/fondo2.gif);
+
+  background-position: center;
+}
+
+.img-logo {
+  margin-left: 20px;
+  height: 70px;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  border: 4px solid #df1406;
+  border-style: double;
+  background-color: #faf5d7;
+  opacity: 0.95;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+}
+.link-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-right: 20px;
+  width: 300px;
+}
+.bt-link {
+  background-color: #a5b059;
+  border: 1px solid #d74034;
+  border-radius: 50%;
+  padding: 5px;
+  width: 75px;
+  height: 50px;
+  font-family: Lobster;
+  font-size: large;
+  text-align: center;
+}
+.container {
+  margin-top: 90px;
+}
+
+/*card*/
+/*card*/
+.card-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.card-border {
+  display: flex;
+  flex-wrap: wrap;
+  width: auto;
+  border: 2px solid rgb(190, 68, 68);
+  border-style: double;
+  justify-content: center;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 0.5px solid rgb(141, 137, 137);
+  height: 280px;
+  width: 205px;
+  background-color: rgb(241, 232, 232);
+  opacity: 0.95;
+  margin: 2px;
+}
+
+.img-card {
+  margin-top: 2px;
+  width: 180px;
+  height: 175px;
+}
+.container-product {
+  height: 30px;
+}
+.product {
+  font-size: smaller;
+}
+
+.value {
+  margin-top: 5px;
+  font-size: medium;
+}
+.format {
+  font-size: small;
+}
+.text-container {
+  background-color: #faf5d7;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  border-top: 1px solid #ccc;
+  opacity: 0.9;
+}
+.add-product {
+  background-color: #df1406;
+  border: 3px solid #ffd24f;
+  margin-top: 5px;
+  border-radius: 10px;
+  width: 50%;
+  color: #fff;
+}
+
+/*Cart¨*/
+.shopping-cart {
+  border: 1px solid #d74034;
+  border-radius: 50%;
+}
+
+/*Formulario*/
+.form-contact {
+  margin-top: 90px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+}
+.input-contact {
+  width: 80%;
+  border: 2px solid #a5b059;
+  border-radius: 8px;
+  border-style: double;
+}
+.description {
+  margin-top: 20px;
+}
+.title-contact {
+  font-size: medium;
+}
+.bt-submit {
+  background-color: #df1406;
+  border: 2px solid #a5b059;
+  margin-top: 5px;
+  border-radius: 10px;
+  width: 20%;
+  height: 30px;
+  color: #fff;
+}
+.input-form {
+  width: 100%;
+}
+
+.container-add {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 3;
+  margin-top: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card-product {
+  background-image: url(./assets/img/logoB.png);
+  background-size: 30%;
+  background-position: center;
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: #ffcc3b 4px solid;
+  border-radius: 10px;
+  border-style: double;
+}
+.text-container-product {
+  background-color: #df1406;
+  width: 100%;
+  text-align: center;
+  border-radius: 0px 0px 7.5px 7.5px;
+  border-top: #ffcc3b 1px solid;
+
+  color: #fff;
+}
+.input-amount {
+  width: 33px;
+}
+.accept-product {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+/*cart*/
+.container-cart {
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 3;
+  margin-top: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #df1406;
+  flex-direction: column;
+}
+.container-list {
+  display: flex;
+  justify-content: center;
 }
