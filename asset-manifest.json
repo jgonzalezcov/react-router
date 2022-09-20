@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-router/static/css/main.c1e3ecf2.css",
-    "main.js": "/react-router/static/js/main.b898ab7d.js",
+    "main.js": "/react-router/static/js/main.b761f790.js",
     "static/media/Lobster-Regular.ttf": "/react-router/static/media/Lobster-Regular.03c38496322925fec242.ttf",
     "static/media/torta2.png": "/react-router/static/media/torta2.fc82f9a70ffab2976b9d.png",
     "static/media/torta1.png": "/react-router/static/media/torta1.836373bec4c507c8f8b2.png",
@@ -25,10 +25,10 @@
     "static/media/carro.png": "/react-router/static/media/carro.79614abae360a5673e2a.png",
     "index.html": "/react-router/index.html",
     "main.c1e3ecf2.css.map": "/react-router/static/css/main.c1e3ecf2.css.map",
-    "main.b898ab7d.js.map": "/react-router/static/js/main.b898ab7d.js.map"
+    "main.b761f790.js.map": "/react-router/static/js/main.b761f790.js.map"
   },
   "entrypoints": [
     "static/css/main.c1e3ecf2.css",
-    "static/js/main.b898ab7d.js"
+    "static/js/main.b761f790.js"
   ]
 }
