@@ -1,9 +1,8 @@
 import React from 'react'
-import { useState } from 'react'
+
 const productImage = require.context('../assets/img', true)
 
 const Add = (props) => {
-  const [object, setObject] = useState({})
   return (
     <div className="container-add">
       {props.info

@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom'
 import logo from '../assets/img/logoHeader.png'
 import cart from '../assets/img/carro.png'
-export default function Navigation() {
+export default function Navigation(props) {
   return (
     <>
       <header>
@@ -9,6 +9,7 @@ export default function Navigation() {
         <div className="link-container">
           <Link to="/carro" className="logo-container">
             <img className="shopping-cart" src={cart} alt="" />
+            <h3 className="amount-cart">{props.puchaseOrder.length}</h3>
           </Link>
 
           <Link to="/" className="link-home">

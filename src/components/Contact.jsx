@@ -1,8 +1,11 @@
 import React from 'react'
 
 const Contact = () => {
+  const enviarFormulario = (e) => {
+    e.preventDefault()
+  }
   return (
-    <form className="form-contact">
+    <form className="form-contact" onSubmit={enviarFormulario}>
       <div className="container-correo input-form">
         <h3 className="title-contact">Correo</h3>
         <input className="input-contact" name="Correo" />
