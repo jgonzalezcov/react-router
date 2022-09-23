@@ -43,7 +43,7 @@ function App() {
       <BrowserRouter>
         <Navbar puchaseOrder={puchaseOrder} />
         <Routes>
-          <Route path="/react-router">
+          <Route path="/react-router/">
             <Route
               path="/"
               element={
