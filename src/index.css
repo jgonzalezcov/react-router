@@ -55,7 +55,34 @@ header {
   margin-top: 90px;
 }
 
-/*card*/
+/*cantidad carro*/
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.amount-cart {
+  border: 1px solid #fff;
+  border-radius: 50%;
+  width: 18px;
+  text-align: center;
+  color: #fff;
+  text-decoration: none;
+  background-color: #df1406;
+  font-size: medium;
+}
+
+.amount-cart-list {
+  border: 1px solid #fff;
+  border-radius: 50%;
+  width: 18px;
+  text-align: center;
+  color: #fff;
+  text-decoration: none;
+  background-color: #009605;
+  font-size: medium;
+}
 /*card*/
 .card-container {
   width: 100%;
@@ -202,19 +229,126 @@ header {
 }
 
 /*cart*/
+.container-up-cart {
+  display: flex;
+  justify-content: center;
+  color: rgb(0, 11, 94);
+}
 .container-cart {
-  left: 0;
-  top: 0;
-  width: 100%;
-  z-index: 3;
-  margin-top: 10%;
+  display: flex;
+  justify-content: center;
+  background-color: #faf5d7;
+  flex-direction: column;
+  padding: 30px;
+  border: solid 4px #a5b059;
+  border-radius: 20px;
+}
+.container-list {
+  display: flex;
+  align-items: center;
+}
+
+.container-title-list {
+  display: flex;
+}
+.img-card-list {
+  margin-left: 30px;
+  width: 100px;
+  height: 100px;
+  border: 3px solid #ffd24f;
+  border-top: 0px;
+}
+.title-img {
+  text-align: center;
+  margin-left: 30px;
+  width: 100px;
+  height: auto;
+  border: 3px solid #ffd24f;
+}
+
+.container-name-cart {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #df1406;
-  flex-direction: column;
+  width: 250px;
+  height: 100px;
+  border: 3px solid #ffd24f;
+  border-left: 0px;
+  border-top: 0px;
 }
-.container-list {
+
+.title-name,
+.title-value,
+.title-amount,
+.title-total {
+  width: 250px;
+  text-align: left;
+  text-align: center;
+  border: 3px solid #ffd24f;
+  border-left: 0px;
+}
+
+.container-total-general {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.total-general {
+  width: 249px;
+  text-align: left;
+  text-align: center;
+  border: 3px solid #ff924f;
+  border-radius: 0px 0px 10px 10px;
+}
+.container-value-cart {
+  display: flex;
+  width: 250px;
+  text-align: center;
+  border: 3px solid #ffd24f;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+  border-left: 0px;
+  border-top: 0px;
+}
+.container-amount-cart {
+  display: flex;
+  width: 250px;
+  text-align: center;
+  border: 3px solid #ffd24f;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+  border-left: 0px;
+  border-top: 0px;
+}
+.container-total-cart {
+  display: flex;
+  width: 250px;
+  text-align: center;
+  border: 3px solid #ffd24f;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+  border-left: 0px;
+  border-top: 0px;
+}
+.button-cart {
+  margin-top: 30px;
+  width: 20%;
+  height: 30px;
+  border-radius: 20px;
+  font-size: medium;
+}
+.container-button-cart {
+  display: flex;
+  justify-content: center;
+}
+
+/*No fount*/
+
+.not-fount-container {
+  width: 100%;
   display: flex;
   justify-content: center;
 }

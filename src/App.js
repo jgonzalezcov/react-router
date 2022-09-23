@@ -13,7 +13,6 @@ function App() {
   const [info, setInfo] = useState(product)
   const [addProduct, setAddProduct] = useState(0)
   const [amount, setAmount] = useState(1)
-  const [viewcart, setViewCart] = useState(false)
   const viewProduct = (idProduct) => {
     setAddProduct(idProduct)
     console.log(idProduct)
@@ -42,41 +41,31 @@ function App() {
   return (
     <div className="App">
       <BrowserRouter>
-        <Navbar />
+        <Navbar puchaseOrder={puchaseOrder} />
         <Routes>
-          <Route
-            path="/react-router/"
-            element={
-              <Home
-                to="/"
-                info={info}
-                viewProduct={viewProduct}
-                addProduct={addProduct}
-              />
-            }
-          />
-          <Route
-            path="/"
-            element={
-              <Home
-                info={info}
-                viewProduct={viewProduct}
-                addProduct={addProduct}
-              />
-            }
-          />
-          <Route path="/contacto" element={<Contact />} />
-          <Route
-            path="/carro"
-            element={
-              <Cart
-                puchaseOrder={puchaseOrder}
-                setPuchaseOrder={setPuchaseOrder}
-                setViewCart={setViewCart}
-              />
-            }
-          />
-          <Route path="*" element={<NotFound />} />
+          <Route path="react-router">
+            <Route
+              path="/"
+              element={
+                <Home
+                  info={info}
+                  viewProduct={viewProduct}
+                  addProduct={addProduct}
+                />
+              }
+            />
+            <Route path="/contacto" element={<Contact />} />
+            <Route
+              path="/carro"
+              element={
+                <Cart
+                  puchaseOrder={puchaseOrder}
+                  setPuchaseOrder={setPuchaseOrder}
+                />
+              }
+            />
+            <Route path="*" element={<NotFound />} />
+          </Route>
         </Routes>
       </BrowserRouter>
       {addProduct > 0 ? (
