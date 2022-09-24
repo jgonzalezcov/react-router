@@ -1,3 +1,3 @@
 # React Router
 
-Project can be viewed at: (https://github.com/jgonzalezcov/react-router).
+Project can be viewed at: (https://jgonzalezcov.github.io/react-router/).
