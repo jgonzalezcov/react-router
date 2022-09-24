@@ -35,6 +35,9 @@ const Add = (props) => {
                   Agregar
                 </button>
               </div>
+              <button className="bt-cancel" onClick={() => props.cancelAdd()}>
+                Cancelar
+              </button>
             </div>
           </div>
         ))}

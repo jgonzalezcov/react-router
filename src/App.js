@@ -18,6 +18,10 @@ function App() {
     setAddProduct(idProduct)
     console.log(idProduct)
   }
+  const cancelAdd = () => {
+    setAddProduct(0)
+    setAmount(1)
+  }
   const add = (name, value, format, srcs) => {
     setAddProduct(0)
     setAmount(1)
@@ -79,6 +83,7 @@ function App() {
           amount={amount}
           setAmount={setAmount}
           add={add}
+          cancelAdd={cancelAdd}
         />
       ) : null}
     </div>
