@@ -70,7 +70,7 @@ function App() {
               />
             }
           />
-          <Route path="*" element={<NotFound />} />
+          <Route path="/react-router/*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
       {addProduct > 0 ? (
