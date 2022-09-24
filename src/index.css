@@ -357,3 +357,7 @@ header {
   display: flex;
   justify-content: center;
 }
+
+.bt-cancel {
+  margin-top: 20px;
+}
