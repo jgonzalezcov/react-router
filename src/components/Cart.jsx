@@ -46,7 +46,7 @@ const Cart = (props) => {
               .toLocaleString('de-DE')}
           </h3>
         </div>
-        <Link to="/" className="container-button-cart">
+        <Link to="/react-router" className="container-button-cart">
           <button
             className="button-cart"
             onClick={() => props.setViewCart(false)}

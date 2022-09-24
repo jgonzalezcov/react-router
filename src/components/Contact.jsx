@@ -37,7 +37,7 @@ const Contact = () => {
         ></textarea>
       </div>
       {email !== '' && description !== '' ? (
-        <Link to="/enviado" className="not-fount-container">
+        <Link to="/react-router/enviado" className="not-fount-container">
           <button className="bt-submit" type="submit">
             Enviar
           </button>
