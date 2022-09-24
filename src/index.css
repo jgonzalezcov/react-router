@@ -162,11 +162,16 @@ header {
   text-align: center;
   width: 100%;
 }
+
 .input-contact {
-  width: 80%;
+  width: 30%;
   border: 2px solid #a5b059;
   border-radius: 8px;
   border-style: double;
+}
+
+.input-contact-email {
+  text-align: center;
 }
 .description {
   margin-top: 20px;

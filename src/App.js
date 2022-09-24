@@ -7,6 +7,7 @@ import Cart from './components/Cart.jsx'
 import Add from './components/Add'
 import product from './data/products'
 import { useState } from 'react'
+import Sent from './components/Sent.jsx'
 
 function App() {
   const [puchaseOrder, setPuchaseOrder] = useState([])
@@ -43,29 +44,29 @@ function App() {
       <BrowserRouter>
         <Navbar puchaseOrder={puchaseOrder} />
         <Routes>
-          <Route path="/react-router/">
-            <Route
-              path="/"
-              element={
-                <Home
-                  info={info}
-                  viewProduct={viewProduct}
-                  addProduct={addProduct}
-                />
-              }
-            />
-            <Route path="/contacto" element={<Contact />} />
-            <Route
-              path="/carro"
-              element={
-                <Cart
-                  puchaseOrder={puchaseOrder}
-                  setPuchaseOrder={setPuchaseOrder}
-                />
-              }
-            />
-            <Route path="*" element={<NotFound />} />
-          </Route>
+          <Route
+            path="/react-router"
+            element={
+              <Home
+                info={info}
+                viewProduct={viewProduct}
+                addProduct={addProduct}
+              />
+            }
+          />
+
+          <Route path="/react-router/enviado" element={<Sent />} />
+          <Route path="/react-router/contacto" element={<Contact />} />
+          <Route
+            path="/react-router/carro"
+            element={
+              <Cart
+                puchaseOrder={puchaseOrder}
+                setPuchaseOrder={setPuchaseOrder}
+              />
+            }
+          />
+          <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
       {addProduct > 0 ? (
